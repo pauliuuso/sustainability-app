@@ -4,6 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { MainFormComponent } from './main-form/main-form.component';
+import { HeaderComponent } from './header/header.component';
 
 const appRoutes: Routes = [
   {
@@ -15,7 +16,8 @@ const appRoutes: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
-    MainFormComponent
+    MainFormComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

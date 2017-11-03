@@ -1,0 +1,14 @@
+.header
+{
+  height: 100px;
+  background: lightcoral;
+  position: relative;
+  overflow: hidden;
+}
+
+.header-image
+{
+  position: absolute;
+  width: 100%;
+  top: -10px;
+}
